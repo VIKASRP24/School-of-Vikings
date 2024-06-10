@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Admission Form</title>
+  <style>
+    body{
+        text-align: center;
+    }
+    .admission-form {
+        max-width: 200px;
+        padding: 40px;
+        background-color: #609966;
+    }
+
+    .form-group {
+        margin-bottom: 16px;
+    }
+    .form-input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .submit-button {
+        background-color: #40513B;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+    }
+
+</style>
+</head>
+<body>
+  <nav>
+    <h1 style="color: #EDF1D6;
+    background-color: #609966;
+    text-align: center;
+    font-family:cursive;
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-bottom: 20px;">SCHOOL OF VIKINGS</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="curriculum.html">School Curriculum</a></li>
+      <li><a href="admission.html">Admission Form</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  
+
+  <div class="admission">
+    <h1 style="font-weight: bolder;">Admission Form</h1>
+    <div class="admission-form" style="margin-left: auto; max-width: 1000px; margin-right: auto; margin-bottom: 40px; border: solid #40513B 10px ;">
+        <h2>Viking School Admission Form</h2>
+          <div class="form-group">
+            <label class="form-label" for="name">Name:</label>
+            <input class="form-input" type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="age">Age:</label>
+            <input class="form-input" type="number" id="age" name="age" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="gender">Gender:</label>
+            <select class="form-input" id="gender" name="gender" required>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <button class="submit-button" type="submit">Submit</button>
+        
+      </div>
+      
+    <img src="./images/img4.png" alt="Admission Image" style="margin-left: auto; max-width: 1000px; margin-right: auto; margin-bottom: 40px; border: solid #40513B 10px ;">
+  </div>
+</body>
+</html>
