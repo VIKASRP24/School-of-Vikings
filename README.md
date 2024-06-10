@@ -2,7 +2,6 @@
 A basic and simple front end webpage for a school where vikings will study
 
 #This website contains
-\n
 1.Home Page
 2.Curuculam Page
 3.Admission Page
